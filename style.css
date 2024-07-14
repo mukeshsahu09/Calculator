@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(56,72,137);
+background: radial-gradient(circle, rgba(56,72,137,1) 0%, rgba(14,28,43,1) 100%);
+}
+#cal-con{
+    height: 400px;
+    width: 300px;
+    border: 1px solid;
+    background-color: rgb(61, 58, 58);
+    border-radius: 30px;
+    box-shadow: 0px 0px 1000px rgb(212, 173, 173);
+}
+#input-container{
+    height: 70px;
+    border-bottom: 1px solid;
+    
+}
+#input-container input{
+    width: 100%;
+    height: inherit;
+    background-color: transparent;
+    font-size: 35px;
+    color: white;
+    border: none;
+    text-align: end;
+    padding: 10px;
+    outline: none;
+
+}
+#keyboard{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    outline: none;
+    
+}
+#keyboard button{
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    color: rgb(253, 253, 253);
+    border-width: 0px 2px 2px 0px;
+    border-color: rgb(234, 234, 234);
+    border-radius: 50%;
+    font-size: 17px;
+
+}
+
+.sp{
+    background-color: rgb(43, 41, 44) !important;
+    color: rgb(254, 155, 119) !important;
+}
+
+ .equal{
+    background-color: rgb(14, 13, 32) !important;
+    color: rgb(254, 155, 119) !important;
+    font-size: 30px !important;
+    font-weight: 1000px !important;
+}
